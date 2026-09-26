@@ -1,0 +1,1801 @@
+[
+  {
+    "id": "manali",
+    "name": "Manali",
+    "state": "Himachal Pradesh",
+    "category": [
+      "Mountains",
+      "Adventure",
+      "Nature"
+    ],
+    "latitude": 32.24,
+    "longitude": 77.189,
+    "description": "Mountain air, cedar trails and slow riverside afternoons.",
+    "bestTime": "Mar / Apr / May / Jun / Oct / Nov",
+    "estimatedBudget": {
+      "budget": 7200,
+      "midRange": 10800,
+      "premium": 21600
+    },
+    "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=85",
+    "activities": [
+      "Solang Valley",
+      "Hidimba Temple",
+      "Old Manali",
+      "Vashisht Village"
+    ],
+    "safetyTips": [
+      "Carry warm layers",
+      "Check road and weather conditions before mountain activities",
+      "Avoid isolated trails after dark"
+    ],
+    "region": "North",
+    "bestMonths": [
+      3,
+      4,
+      5,
+      6,
+      10,
+      11
+    ],
+    "idealDays": 4,
+    "dailyBudget": 1800,
+    "localFood": [
+      "Siddu",
+      "Thukpa",
+      "Dham"
+    ],
+    "gettingThere": "Reach by road from Chandigarh or Delhi; allow a full travel day.",
+    "experience": "Mountain air, cedar trails and slow riverside afternoons.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations"
+  },
+  {
+    "id": "goa",
+    "name": "Goa",
+    "state": "Goa",
+    "category": [
+      "Beaches",
+      "Food",
+      "Nightlife"
+    ],
+    "latitude": 15.491,
+    "longitude": 73.828,
+    "description": "Beach mornings, colourful heritage lanes and long lunches.",
+    "bestTime": "Nov / Dec / Jan / Feb",
+    "estimatedBudget": {
+      "budget": 8800,
+      "midRange": 13200,
+      "premium": 26400
+    },
+    "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=85",
+    "activities": [
+      "Fort Aguada",
+      "Fontainhas",
+      "Basilica of Bom Jesus",
+      "Miramar Beach"
+    ],
+    "safetyTips": [
+      "Use marked swimming areas",
+      "Keep valuables secure on crowded beaches",
+      "Use registered transport at night"
+    ],
+    "region": "West",
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "idealDays": 4,
+    "dailyBudget": 2200,
+    "localFood": [
+      "Goan fish curry",
+      "Poi bread",
+      "Bebinca"
+    ],
+    "gettingThere": "Arrive at Goa Dabolim or Manohar airport, or Madgaon/Thivim railway station.",
+    "experience": "Beach mornings, colourful heritage lanes and long lunches.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations"
+  },
+  {
+    "id": "rishikesh",
+    "name": "Rishikesh",
+    "state": "Uttarakhand",
+    "category": [
+      "Spiritual",
+      "Adventure",
+      "Nature"
+    ],
+    "latitude": 30.086,
+    "longitude": 78.268,
+    "description": "Yoga, riverside walks and a slower rhythm beside the Ganga.",
+    "bestTime": "Feb / Mar / Apr / Oct / Nov",
+    "estimatedBudget": {
+      "budget": 4200,
+      "midRange": 6300,
+      "premium": 12600
+    },
+    "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1200&q=85",
+    "activities": [
+      "Triveni Ghat",
+      "Beatles Ashram",
+      "Ram Jhula",
+      "Parmarth Niketan"
+    ],
+    "safetyTips": [
+      "Use licensed adventure operators",
+      "Follow river safety instructions",
+      "Respect local spiritual spaces"
+    ],
+    "region": "North",
+    "bestMonths": [
+      2,
+      3,
+      4,
+      10,
+      11
+    ],
+    "idealDays": 3,
+    "dailyBudget": 1400,
+    "localFood": [
+      "Aloo puri",
+      "Vegetarian thali",
+      "Chai"
+    ],
+    "gettingThere": "Travel via Haridwar rail station or Dehradun airport, then continue by road.",
+    "experience": "Yoga, riverside walks and a slower rhythm beside the Ganga.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations"
+  },
+  {
+    "id": "udaipur",
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "category": [
+      "Culture",
+      "Romantic",
+      "Food"
+    ],
+    "latitude": 24.585,
+    "longitude": 73.713,
+    "description": "Lakeside sunsets, palace courtyards and old-city cafés.",
+    "bestTime": "Oct / Nov / Dec / Jan / Feb / Mar",
+    "estimatedBudget": {
+      "budget": 6000,
+      "midRange": 9000,
+      "premium": 18000
+    },
+    "image": "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1200&q=85",
+    "activities": [
+      "City Palace Udaipur",
+      "Bagore Ki Haveli",
+      "Saheliyon Ki Bari",
+      "Fateh Sagar Lake"
+    ],
+    "safetyTips": [
+      "Stay hydrated in the afternoon",
+      "Use official guides for palace tours",
+      "Watch belongings in busy markets"
+    ],
+    "region": "West",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "idealDays": 3,
+    "dailyBudget": 2000,
+    "localFood": [
+      "Dal baati churma",
+      "Gatte ki sabzi",
+      "Laal maas"
+    ],
+    "gettingThere": "Arrive at Udaipur railway station or Maharana Pratap airport.",
+    "experience": "Lakeside sunsets, palace courtyards and old-city cafés.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations"
+  },
+  {
+    "id": "munnar",
+    "name": "Munnar",
+    "state": "Kerala",
+    "category": [
+      "Nature",
+      "Mountains",
+      "Romantic"
+    ],
+    "latitude": 10.089,
+    "longitude": 77.06,
+    "description": "Tea-covered slopes, misty mornings and unhurried viewpoints.",
+    "bestTime": "Oct / Nov / Dec / Jan / Feb / Mar",
+    "estimatedBudget": {
+      "budget": 5700,
+      "midRange": 8550,
+      "premium": 17100
+    },
+    "image": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=1200&q=85",
+    "activities": [
+      "Tea Museum Munnar",
+      "Mattupetty Dam",
+      "Eravikulam National Park entrance",
+      "Blossom Hydel Park"
+    ],
+    "safetyTips": [
+      "Carry rain protection",
+      "Follow wildlife-zone rules",
+      "Drive slowly on hill roads"
+    ],
+    "region": "South",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "idealDays": 3,
+    "dailyBudget": 1900,
+    "localFood": [
+      "Appam and stew",
+      "Puttu and kadala",
+      "Kerala meals"
+    ],
+    "gettingThere": "Reach by road from Kochi; hill roads need extra time.",
+    "experience": "Tea-covered slopes, misty mornings and unhurried viewpoints.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations"
+  },
+  {
+    "id": "jaipur",
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "category": [
+      "Culture",
+      "Food",
+      "Architecture"
+    ],
+    "latitude": 26.912,
+    "longitude": 75.787,
+    "description": "Pink facades, grand forts and markets full of craft.",
+    "bestTime": "Oct / Nov / Dec / Jan / Feb / Mar",
+    "estimatedBudget": {
+      "budget": 5100,
+      "midRange": 7650,
+      "premium": 15300
+    },
+    "image": "/images/jaipur.webp",
+    "activities": [
+      "Amber Fort",
+      "Hawa Mahal",
+      "City Palace Jaipur",
+      "Jantar Mantar Jaipur"
+    ],
+    "safetyTips": [
+      "Carry water while sightseeing",
+      "Prefer prepaid or app-based rides",
+      "Use licensed guides at major monuments"
+    ],
+    "region": "West",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "idealDays": 3,
+    "dailyBudget": 1700,
+    "localFood": [
+      "Pyaaz kachori",
+      "Dal baati",
+      "Ghewar"
+    ],
+    "gettingThere": "Jaipur has airport and rail connections; use metro or local cabs within the city.",
+    "experience": "Pink facades, grand forts and markets full of craft.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations"
+  },
+  {
+    "id": "darjeeling",
+    "name": "Darjeeling",
+    "state": "West Bengal",
+    "category": [
+      "Mountains",
+      "Nature",
+      "Culture"
+    ],
+    "latitude": 27.042,
+    "longitude": 88.263,
+    "description": "Tea gardens, Himalayan views and heritage railway charm.",
+    "bestTime": "Mar / Apr / May / Oct / Nov",
+    "estimatedBudget": {
+      "budget": 8000,
+      "midRange": 12000,
+      "premium": 24000
+    },
+    "image": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=85",
+    "activities": [
+      "Batasia Loop",
+      "Ghoom Monastery",
+      "Chowrasta Darjeeling",
+      "Happy Valley Tea Estate"
+    ],
+    "safetyTips": [
+      "Move slowly at high viewpoints if unaccustomed",
+      "Carry a light jacket",
+      "Check hill-road conditions before long drives"
+    ],
+    "region": "East",
+    "bestMonths": [
+      3,
+      4,
+      5,
+      10,
+      11
+    ],
+    "idealDays": 4,
+    "dailyBudget": 2000,
+    "localFood": [
+      "Momos",
+      "Thukpa",
+      "Darjeeling tea"
+    ],
+    "gettingThere": "Continue by hill road from Bagdogra airport or New Jalpaiguri station.",
+    "experience": "Tea gardens, Himalayan views and heritage railway charm.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations"
+  },
+  {
+    "id": "varanasi",
+    "name": "Varanasi",
+    "state": "Uttar Pradesh",
+    "category": [
+      "Spiritual",
+      "Culture",
+      "Food"
+    ],
+    "latitude": 25.318,
+    "longitude": 82.974,
+    "description": "Sunrise on the river, sacred ghats and centuries of living culture.",
+    "bestTime": "Oct / Nov / Dec / Jan / Feb / Mar",
+    "estimatedBudget": {
+      "budget": 4200,
+      "midRange": 6300,
+      "premium": 12600
+    },
+    "image": "https://images.unsplash.com/photo-1561361058-c24cecae35ca?auto=format&fit=crop&w=1200&q=85",
+    "activities": [
+      "Dashashwamedh Ghat",
+      "Assi Ghat",
+      "Sarnath archaeological site",
+      "Ramnagar Fort"
+    ],
+    "safetyTips": [
+      "Use well-lit routes after dark",
+      "Respect temple and ghat rules",
+      "Keep bags secure in crowded lanes"
+    ],
+    "region": "North",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "idealDays": 3,
+    "dailyBudget": 1400,
+    "localFood": [
+      "Kachori sabzi",
+      "Malaiyyo",
+      "Banarasi paan"
+    ],
+    "gettingThere": "Arrive by rail or Lal Bahadur Shastri airport; walk the old-city lanes.",
+    "experience": "Sunrise on the river, sacred ghats and centuries of living culture.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations"
+  },
+  {
+    "id": "leh",
+    "name": "Leh",
+    "state": "Ladakh",
+    "category": [
+      "Mountains",
+      "Culture",
+      "Adventure"
+    ],
+    "latitude": 34.152,
+    "longitude": 77.577,
+    "description": "High-altitude landscapes and monastery life, at a careful pace.",
+    "bestTime": "Jun / Jul / Aug / Sep",
+    "estimatedBudget": {
+      "budget": 13500,
+      "midRange": 20250,
+      "premium": 40500
+    },
+    "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=85",
+    "activities": [
+      "Leh Palace",
+      "Shanti Stupa",
+      "Leh Main Bazaar",
+      "Hall of Fame Leh"
+    ],
+    "safetyTips": [
+      "Acclimatise before strenuous activity",
+      "Stay hydrated",
+      "Check road closures before remote drives"
+    ],
+    "region": "North",
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "idealDays": 5,
+    "dailyBudget": 2700,
+    "localFood": [
+      "Thukpa",
+      "Skyu",
+      "Momos"
+    ],
+    "gettingThere": "Fly to Leh or plan a multi-day road journey; reserve the first 48 hours for acclimatisation.",
+    "experience": "High-altitude landscapes and monastery life, at a careful pace.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations"
+  },
+  {
+    "id": "amritsar",
+    "name": "Amritsar",
+    "state": "Punjab",
+    "category": [
+      "Spiritual",
+      "Food",
+      "Culture"
+    ],
+    "latitude": 31.634,
+    "longitude": 74.872,
+    "description": "Sacred spaces, warm hospitality and memorable Punjabi food.",
+    "bestTime": "Oct / Nov / Dec / Jan / Feb / Mar",
+    "estimatedBudget": {
+      "budget": 3000,
+      "midRange": 4500,
+      "premium": 9000
+    },
+    "image": "https://images.unsplash.com/photo-1609947017136-9daf5f9a0f65?auto=format&fit=crop&w=1200&q=85",
+    "activities": [
+      "Golden Temple",
+      "Jallianwala Bagh",
+      "Partition Museum",
+      "Gobindgarh Fort"
+    ],
+    "safetyTips": [
+      "Follow footwear and dress rules at religious sites",
+      "Keep water handy during city walks",
+      "Use official transport for late-evening transfers"
+    ],
+    "region": "North",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "idealDays": 2,
+    "dailyBudget": 1500,
+    "localFood": [
+      "Amritsari kulcha",
+      "Lassi",
+      "Chole"
+    ],
+    "gettingThere": "Amritsar has direct rail and airport connections.",
+    "experience": "Sacred spaces, warm hospitality and memorable Punjabi food.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations"
+  },
+  {
+    "id": "agra",
+    "name": "Agra",
+    "state": "Uttar Pradesh",
+    "region": "North",
+    "latitude": 27.177,
+    "longitude": 78.008,
+    "category": [
+      "Culture",
+      "Architecture",
+      "Romantic"
+    ],
+    "description": "Mughal architecture, river views and a world-famous marble monument.",
+    "bestTime": "Oct / Nov / Dec / Jan / Feb / Mar",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "idealDays": 2,
+    "dailyBudget": 1700,
+    "estimatedBudget": {
+      "budget": 3400,
+      "midRange": 5100,
+      "premium": 10200
+    },
+    "image": "",
+    "activities": [
+      "Taj Mahal",
+      "Agra Fort",
+      "Mehtab Bagh",
+      "Itmad-ud-Daulah"
+    ],
+    "localFood": [
+      "Bedai",
+      "Petha",
+      "Mughlai dishes"
+    ],
+    "gettingThere": "Use Agra Cantt station or road connections from Delhi and Jaipur.",
+    "experience": "Mughal architecture, river views and a world-famous marble monument.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "delhi",
+    "name": "Delhi",
+    "state": "Delhi",
+    "region": "North",
+    "latitude": 28.614,
+    "longitude": 77.209,
+    "category": [
+      "Culture",
+      "Food",
+      "Architecture"
+    ],
+    "description": "Old-city flavours alongside monuments, museums and modern neighbourhoods.",
+    "bestTime": "Oct / Nov / Dec / Jan / Feb / Mar",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "idealDays": 3,
+    "dailyBudget": 2000,
+    "estimatedBudget": {
+      "budget": 6000,
+      "midRange": 9000,
+      "premium": 18000
+    },
+    "image": "",
+    "activities": [
+      "Humayun Tomb",
+      "Qutub Minar",
+      "India Gate",
+      "Red Fort Delhi"
+    ],
+    "localFood": [
+      "Chole bhature",
+      "Parathas",
+      "Kebabs"
+    ],
+    "gettingThere": "Delhi has extensive airport, rail and metro links.",
+    "experience": "Old-city flavours alongside monuments, museums and modern neighbourhoods.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "shimla",
+    "name": "Shimla",
+    "state": "Himachal Pradesh",
+    "region": "North",
+    "latitude": 31.105,
+    "longitude": 77.173,
+    "category": [
+      "Mountains",
+      "Culture",
+      "Nature"
+    ],
+    "description": "Hill-station walks, forest edges and colonial-era streets.",
+    "bestTime": "Mar / Apr / May / Jun / Oct / Nov",
+    "bestMonths": [
+      3,
+      4,
+      5,
+      6,
+      10,
+      11
+    ],
+    "idealDays": 3,
+    "dailyBudget": 1800,
+    "estimatedBudget": {
+      "budget": 5400,
+      "midRange": 8100,
+      "premium": 16200
+    },
+    "image": "",
+    "activities": [
+      "The Ridge Shimla",
+      "Viceregal Lodge",
+      "Jakhu Temple",
+      "Annandale Shimla"
+    ],
+    "localFood": [
+      "Chana madra",
+      "Siddu",
+      "Himachali thali"
+    ],
+    "gettingThere": "Travel by road from Chandigarh or via the Kalka–Shimla railway.",
+    "experience": "Hill-station walks, forest edges and colonial-era streets.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "mussoorie",
+    "name": "Mussoorie",
+    "state": "Uttarakhand",
+    "region": "North",
+    "latitude": 30.459,
+    "longitude": 78.065,
+    "category": [
+      "Mountains",
+      "Nature",
+      "Romantic"
+    ],
+    "description": "Ridge walks, hill cafés and mountain views close to Dehradun.",
+    "bestTime": "Mar / Apr / May / Jun / Oct / Nov",
+    "bestMonths": [
+      3,
+      4,
+      5,
+      6,
+      10,
+      11
+    ],
+    "idealDays": 3,
+    "dailyBudget": 1800,
+    "estimatedBudget": {
+      "budget": 5400,
+      "midRange": 8100,
+      "premium": 16200
+    },
+    "image": "",
+    "activities": [
+      "Camel Back Road",
+      "Landour",
+      "Company Garden Mussoorie",
+      "Library Bazaar"
+    ],
+    "localFood": [
+      "Garhwali thali",
+      "Bun omelette",
+      "Bal mithai"
+    ],
+    "gettingThere": "Continue by road from Dehradun airport or railway station.",
+    "experience": "Ridge walks, hill cafés and mountain views close to Dehradun.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "nainital",
+    "name": "Nainital",
+    "state": "Uttarakhand",
+    "region": "North",
+    "latitude": 29.391,
+    "longitude": 79.455,
+    "category": [
+      "Mountains",
+      "Nature",
+      "Family"
+    ],
+    "description": "A lake-town escape with viewpoints and gentle promenade walks.",
+    "bestTime": "Mar / Apr / May / Jun / Oct / Nov",
+    "bestMonths": [
+      3,
+      4,
+      5,
+      6,
+      10,
+      11
+    ],
+    "idealDays": 3,
+    "dailyBudget": 1800,
+    "estimatedBudget": {
+      "budget": 5400,
+      "midRange": 8100,
+      "premium": 16200
+    },
+    "image": "",
+    "activities": [
+      "Naini Lake",
+      "Naina Devi Temple",
+      "Snow View Point",
+      "Eco Cave Gardens"
+    ],
+    "localFood": [
+      "Aloo ke gutke",
+      "Bhatt ki churkani",
+      "Bal mithai"
+    ],
+    "gettingThere": "Travel by road from Kathgodam railway station.",
+    "experience": "A lake-town escape with viewpoints and gentle promenade walks.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "srinagar",
+    "name": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "region": "North",
+    "latitude": 34.083,
+    "longitude": 74.797,
+    "category": [
+      "Nature",
+      "Romantic",
+      "Culture"
+    ],
+    "description": "Gardens, lake life and Kashmiri crafts framed by mountains.",
+    "bestTime": "Apr / May / Jun / Sep / Oct",
+    "bestMonths": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "idealDays": 4,
+    "dailyBudget": 2400,
+    "estimatedBudget": {
+      "budget": 9600,
+      "midRange": 14400,
+      "premium": 28800
+    },
+    "image": "",
+    "activities": [
+      "Dal Lake promenade",
+      "Nishat Bagh",
+      "Shalimar Bagh",
+      "Chashme Shahi"
+    ],
+    "localFood": [
+      "Kahwa",
+      "Rogan josh",
+      "Nadru yakhni"
+    ],
+    "gettingThere": "Fly to Srinagar; check current local travel advisories before departure.",
+    "experience": "Gardens, lake life and Kashmiri crafts framed by mountains.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "jodhpur",
+    "name": "Jodhpur",
+    "state": "Rajasthan",
+    "region": "West",
+    "latitude": 26.239,
+    "longitude": 73.024,
+    "category": [
+      "Culture",
+      "Architecture",
+      "Food"
+    ],
+    "description": "Blue lanes, a dramatic fort and desert-city flavours.",
+    "bestTime": "Oct / Nov / Dec / Jan / Feb / Mar",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "idealDays": 3,
+    "dailyBudget": 1600,
+    "estimatedBudget": {
+      "budget": 4800,
+      "midRange": 7200,
+      "premium": 14400
+    },
+    "image": "",
+    "activities": [
+      "Mehrangarh Fort",
+      "Jaswant Thada",
+      "Clock Tower Jodhpur",
+      "Umaid Bhawan Palace"
+    ],
+    "localFood": [
+      "Mirchi vada",
+      "Makhaniya lassi",
+      "Mawe ki kachori"
+    ],
+    "gettingThere": "Arrive by rail, road or Jodhpur airport.",
+    "experience": "Blue lanes, a dramatic fort and desert-city flavours.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "jaisalmer",
+    "name": "Jaisalmer",
+    "state": "Rajasthan",
+    "region": "West",
+    "latitude": 26.915,
+    "longitude": 70.908,
+    "category": [
+      "Culture",
+      "Adventure",
+      "Architecture"
+    ],
+    "description": "Golden sandstone, carved havelis and desert-edge evenings.",
+    "bestTime": "Oct / Nov / Dec / Jan / Feb",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "idealDays": 3,
+    "dailyBudget": 2000,
+    "estimatedBudget": {
+      "budget": 6000,
+      "midRange": 9000,
+      "premium": 18000
+    },
+    "image": "",
+    "activities": [
+      "Jaisalmer Fort",
+      "Patwon Ki Haveli",
+      "Gadisar Lake",
+      "Bada Bagh"
+    ],
+    "localFood": [
+      "Ker sangri",
+      "Dal baati",
+      "Ghotua"
+    ],
+    "gettingThere": "Arrive by rail or road; keep desert excursions separate from city sightseeing.",
+    "experience": "Golden sandstone, carved havelis and desert-edge evenings.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "kutch",
+    "name": "Bhuj and Kutch",
+    "state": "Gujarat",
+    "region": "West",
+    "latitude": 23.242,
+    "longitude": 69.666,
+    "category": [
+      "Culture",
+      "Nature",
+      "Architecture"
+    ],
+    "description": "Craft villages, palaces and an introduction to the salt desert.",
+    "bestTime": "Nov / Dec / Jan / Feb",
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "idealDays": 4,
+    "dailyBudget": 2100,
+    "estimatedBudget": {
+      "budget": 8400,
+      "midRange": 12600,
+      "premium": 25200
+    },
+    "image": "",
+    "activities": [
+      "Aina Mahal",
+      "Prag Mahal",
+      "Bhujodi craft village",
+      "Kutch Museum"
+    ],
+    "localFood": [
+      "Dabeli",
+      "Kutchi thali",
+      "Khari bhaat"
+    ],
+    "gettingThere": "Use Bhuj as a base; the White Rann needs a separate long drive.",
+    "experience": "Craft villages, palaces and an introduction to the salt desert.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "mumbai",
+    "name": "Mumbai",
+    "state": "Maharashtra",
+    "region": "West",
+    "latitude": 19.076,
+    "longitude": 72.878,
+    "category": [
+      "Food",
+      "Culture",
+      "Nightlife"
+    ],
+    "description": "Seafront walks, Art Deco streets and food at every corner.",
+    "bestTime": "Nov / Dec / Jan / Feb",
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "idealDays": 3,
+    "dailyBudget": 2600,
+    "estimatedBudget": {
+      "budget": 7800,
+      "midRange": 11700,
+      "premium": 23400
+    },
+    "image": "",
+    "activities": [
+      "Gateway of India",
+      "Marine Drive",
+      "Chhatrapati Shivaji Maharaj Vastu Sangrahalaya",
+      "Chhatrapati Shivaji Terminus"
+    ],
+    "localFood": [
+      "Vada pav",
+      "Pav bhaji",
+      "Bombay sandwich"
+    ],
+    "gettingThere": "Mumbai has major airport and rail links; account for city traffic.",
+    "experience": "Seafront walks, Art Deco streets and food at every corner.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "hampi",
+    "name": "Hampi",
+    "state": "Karnataka",
+    "region": "South",
+    "latitude": 15.335,
+    "longitude": 76.46,
+    "category": [
+      "Culture",
+      "Architecture",
+      "Adventure"
+    ],
+    "description": "Boulder landscapes and temple architecture beside the Tungabhadra.",
+    "bestTime": "Oct / Nov / Dec / Jan / Feb",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "idealDays": 3,
+    "dailyBudget": 1500,
+    "estimatedBudget": {
+      "budget": 4500,
+      "midRange": 6750,
+      "premium": 13500
+    },
+    "image": "",
+    "activities": [
+      "Virupaksha Temple Hampi",
+      "Vittala Temple",
+      "Lotus Mahal",
+      "Hemakuta Hill"
+    ],
+    "localFood": [
+      "Jolada rotti",
+      "Bisi bele bath",
+      "South Indian meals"
+    ],
+    "gettingThere": "Continue by road from Hosapete station; spread ruins across several days.",
+    "experience": "Boulder landscapes and temple architecture beside the Tungabhadra.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "coorg",
+    "name": "Coorg",
+    "state": "Karnataka",
+    "region": "South",
+    "latitude": 12.424,
+    "longitude": 75.738,
+    "category": [
+      "Nature",
+      "Romantic",
+      "Food"
+    ],
+    "description": "Coffee country, wooded hills and slow plantation stays.",
+    "bestTime": "Oct / Nov / Dec / Jan / Feb / Mar",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "idealDays": 3,
+    "dailyBudget": 2200,
+    "estimatedBudget": {
+      "budget": 6600,
+      "midRange": 9900,
+      "premium": 19800
+    },
+    "image": "",
+    "activities": [
+      "Raja Seat",
+      "Madikeri Fort",
+      "Abbey Falls",
+      "Omkareshwara Temple"
+    ],
+    "localFood": [
+      "Akki rotti",
+      "Kadambuttu",
+      "Coorg coffee"
+    ],
+    "gettingThere": "Reach Madikeri by road from Mysuru, Mangaluru or Bengaluru.",
+    "experience": "Coffee country, wooded hills and slow plantation stays.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "mysuru",
+    "name": "Mysuru",
+    "state": "Karnataka",
+    "region": "South",
+    "latitude": 12.296,
+    "longitude": 76.639,
+    "category": [
+      "Culture",
+      "Architecture",
+      "Family"
+    ],
+    "description": "Royal heritage, bustling markets and South Indian comfort food.",
+    "bestTime": "Oct / Nov / Dec / Jan / Feb",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "idealDays": 2,
+    "dailyBudget": 1600,
+    "estimatedBudget": {
+      "budget": 3200,
+      "midRange": 4800,
+      "premium": 9600
+    },
+    "image": "",
+    "activities": [
+      "Mysore Palace",
+      "Devaraja Market",
+      "Chamundeshwari Temple",
+      "St Philomena Church"
+    ],
+    "localFood": [
+      "Mysore masala dosa",
+      "Mysore pak",
+      "Filter coffee"
+    ],
+    "gettingThere": "Travel by road or rail from Bengaluru.",
+    "experience": "Royal heritage, bustling markets and South Indian comfort food.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "kochi",
+    "name": "Kochi",
+    "state": "Kerala",
+    "region": "South",
+    "latitude": 9.966,
+    "longitude": 76.242,
+    "category": [
+      "Culture",
+      "Food",
+      "Beaches"
+    ],
+    "description": "Harbour history, art spaces and a flavour of coastal Kerala.",
+    "bestTime": "Nov / Dec / Jan / Feb / Mar",
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "idealDays": 3,
+    "dailyBudget": 1900,
+    "estimatedBudget": {
+      "budget": 5700,
+      "midRange": 8550,
+      "premium": 17100
+    },
+    "image": "",
+    "activities": [
+      "Fort Kochi Beach",
+      "Mattancherry Palace",
+      "Paradesi Synagogue",
+      "St Francis Church Kochi"
+    ],
+    "localFood": [
+      "Appam",
+      "Kerala fish curry",
+      "Banana chips"
+    ],
+    "gettingThere": "Arrive at Kochi airport or Ernakulam station; ferries connect parts of the city.",
+    "experience": "Harbour history, art spaces and a flavour of coastal Kerala.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "alleppey",
+    "name": "Alleppey",
+    "state": "Kerala",
+    "region": "South",
+    "latitude": 9.498,
+    "longitude": 76.338,
+    "category": [
+      "Nature",
+      "Romantic",
+      "Food"
+    ],
+    "description": "Canals, village life and still-water sunsets in the backwaters.",
+    "bestTime": "Nov / Dec / Jan / Feb",
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "idealDays": 3,
+    "dailyBudget": 2100,
+    "estimatedBudget": {
+      "budget": 6300,
+      "midRange": 9450,
+      "premium": 18900
+    },
+    "image": "",
+    "activities": [
+      "Alappuzha Beach",
+      "Alappuzha Lighthouse",
+      "Mullakkal Temple",
+      "Punnamada Lake shore"
+    ],
+    "localFood": [
+      "Karimeen pollichathu",
+      "Appam",
+      "Kerala sadya"
+    ],
+    "gettingThere": "Travel by road or rail from Kochi; confirm boats and stays separately.",
+    "experience": "Canals, village life and still-water sunsets in the backwaters.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "ooty",
+    "name": "Ooty",
+    "state": "Tamil Nadu",
+    "region": "South",
+    "latitude": 11.411,
+    "longitude": 76.695,
+    "category": [
+      "Mountains",
+      "Nature",
+      "Family"
+    ],
+    "description": "Nilgiri views, gardens and cool-weather strolls.",
+    "bestTime": "Mar / Apr / May / Jun / Sep / Oct / Nov",
+    "bestMonths": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11
+    ],
+    "idealDays": 3,
+    "dailyBudget": 2000,
+    "estimatedBudget": {
+      "budget": 6000,
+      "midRange": 9000,
+      "premium": 18000
+    },
+    "image": "",
+    "activities": [
+      "Government Botanical Garden Ooty",
+      "Ooty Lake",
+      "Government Rose Garden Ooty",
+      "Doddabetta viewpoint"
+    ],
+    "localFood": [
+      "Varkey biscuits",
+      "Tea",
+      "Homemade chocolates"
+    ],
+    "gettingThere": "Reach via Coimbatore and Mettupalayam; reserve mountain railway tickets separately.",
+    "experience": "Nilgiri views, gardens and cool-weather strolls.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "puducherry",
+    "name": "Puducherry",
+    "state": "Puducherry",
+    "region": "South",
+    "latitude": 11.942,
+    "longitude": 79.808,
+    "category": [
+      "Beaches",
+      "Culture",
+      "Food"
+    ],
+    "description": "Seaside promenades, quiet courtyards and French-Tamil food.",
+    "bestTime": "Nov / Dec / Jan / Feb / Mar",
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "idealDays": 3,
+    "dailyBudget": 1900,
+    "estimatedBudget": {
+      "budget": 5700,
+      "midRange": 8550,
+      "premium": 17100
+    },
+    "image": "",
+    "activities": [
+      "Promenade Beach",
+      "Sri Aurobindo Ashram",
+      "Bharathi Park",
+      "Basilica of the Sacred Heart"
+    ],
+    "localFood": [
+      "Crepes",
+      "South Indian meals",
+      "Baguettes"
+    ],
+    "gettingThere": "Reach by road from Chennai or rail via Villupuram.",
+    "experience": "Seaside promenades, quiet courtyards and French-Tamil food.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "varkala",
+    "name": "Varkala",
+    "state": "Kerala",
+    "region": "South",
+    "latitude": 8.737,
+    "longitude": 76.717,
+    "category": [
+      "Beaches",
+      "Nature",
+      "Wellness"
+    ],
+    "description": "Clifftop cafés, sea views and a relaxed coastal pace.",
+    "bestTime": "Nov / Dec / Jan / Feb / Mar",
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "idealDays": 3,
+    "dailyBudget": 1700,
+    "estimatedBudget": {
+      "budget": 5100,
+      "midRange": 7650,
+      "premium": 15300
+    },
+    "image": "",
+    "activities": [
+      "Varkala Beach",
+      "North Cliff Varkala",
+      "Janardanaswamy Temple",
+      "Sivagiri Mutt"
+    ],
+    "localFood": [
+      "Kerala meals",
+      "Fresh seafood",
+      "Appam"
+    ],
+    "gettingThere": "Arrive at Varkala station or continue from Thiruvananthapuram airport.",
+    "experience": "Clifftop cafés, sea views and a relaxed coastal pace.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "hyderabad",
+    "name": "Hyderabad",
+    "state": "Telangana",
+    "region": "South",
+    "latitude": 17.385,
+    "longitude": 78.487,
+    "category": [
+      "Food",
+      "Culture",
+      "Architecture"
+    ],
+    "description": "Deccan history, palace collections and legendary food.",
+    "bestTime": "Oct / Nov / Dec / Jan / Feb",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "idealDays": 3,
+    "dailyBudget": 1900,
+    "estimatedBudget": {
+      "budget": 5700,
+      "midRange": 8550,
+      "premium": 17100
+    },
+    "image": "",
+    "activities": [
+      "Charminar",
+      "Chowmahalla Palace",
+      "Salar Jung Museum",
+      "Golconda Fort"
+    ],
+    "localFood": [
+      "Hyderabadi biryani",
+      "Irani chai",
+      "Double ka meetha"
+    ],
+    "gettingThere": "Arrive by air or rail; plan around traffic between old and new city areas.",
+    "experience": "Deccan history, palace collections and legendary food.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "kolkata",
+    "name": "Kolkata",
+    "state": "West Bengal",
+    "region": "East",
+    "latitude": 22.573,
+    "longitude": 88.364,
+    "category": [
+      "Culture",
+      "Food",
+      "Architecture"
+    ],
+    "description": "Literature, grand streets, river crossings and Bengali flavours.",
+    "bestTime": "Oct / Nov / Dec / Jan / Feb",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "idealDays": 3,
+    "dailyBudget": 1800,
+    "estimatedBudget": {
+      "budget": 5400,
+      "midRange": 8100,
+      "premium": 16200
+    },
+    "image": "",
+    "activities": [
+      "Victoria Memorial",
+      "Indian Museum Kolkata",
+      "Prinsep Ghat",
+      "College Street"
+    ],
+    "localFood": [
+      "Kathi roll",
+      "Mishti doi",
+      "Rosogolla"
+    ],
+    "gettingThere": "Use airport, Howrah or Sealdah railway links and the city metro.",
+    "experience": "Literature, grand streets, river crossings and Bengali flavours.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "puri",
+    "name": "Puri",
+    "state": "Odisha",
+    "region": "East",
+    "latitude": 19.813,
+    "longitude": 85.832,
+    "category": [
+      "Spiritual",
+      "Beaches",
+      "Culture"
+    ],
+    "description": "A coastal pilgrimage town with beach walks and traditional food.",
+    "bestTime": "Oct / Nov / Dec / Jan / Feb",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "idealDays": 3,
+    "dailyBudget": 1500,
+    "estimatedBudget": {
+      "budget": 4500,
+      "midRange": 6750,
+      "premium": 13500
+    },
+    "image": "",
+    "activities": [
+      "Puri Beach",
+      "Jagannath Temple exterior",
+      "Narendra Tank",
+      "Gundicha Temple"
+    ],
+    "localFood": [
+      "Dalma",
+      "Khaja",
+      "Chhena poda"
+    ],
+    "gettingThere": "Puri has rail connections; Bhubaneswar is the nearest major airport.",
+    "experience": "A coastal pilgrimage town with beach walks and traditional food.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "gangtok",
+    "name": "Gangtok",
+    "state": "Sikkim",
+    "region": "Northeast",
+    "latitude": 27.332,
+    "longitude": 88.614,
+    "category": [
+      "Mountains",
+      "Culture",
+      "Nature"
+    ],
+    "description": "Monastery visits, mountain views and lively pedestrian streets.",
+    "bestTime": "Mar / Apr / May / Oct / Nov",
+    "bestMonths": [
+      3,
+      4,
+      5,
+      10,
+      11
+    ],
+    "idealDays": 4,
+    "dailyBudget": 2200,
+    "estimatedBudget": {
+      "budget": 8800,
+      "midRange": 13200,
+      "premium": 26400
+    },
+    "image": "",
+    "activities": [
+      "MG Marg Gangtok",
+      "Enchey Monastery",
+      "Namgyal Institute of Tibetology",
+      "Do Drul Chorten"
+    ],
+    "localFood": [
+      "Momos",
+      "Thukpa",
+      "Phagshapa"
+    ],
+    "gettingThere": "Reach by road from Bagdogra or New Jalpaiguri; permits apply to some excursions.",
+    "experience": "Monastery visits, mountain views and lively pedestrian streets.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "shillong",
+    "name": "Shillong",
+    "state": "Meghalaya",
+    "region": "Northeast",
+    "latitude": 25.578,
+    "longitude": 91.893,
+    "category": [
+      "Nature",
+      "Food",
+      "Culture"
+    ],
+    "description": "Pine-covered hills, music culture and local markets.",
+    "bestTime": "Oct / Nov / Dec / Jan / Feb / Mar / Apr",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "idealDays": 4,
+    "dailyBudget": 2000,
+    "estimatedBudget": {
+      "budget": 8000,
+      "midRange": 12000,
+      "premium": 24000
+    },
+    "image": "",
+    "activities": [
+      "Ward Lake",
+      "Don Bosco Museum",
+      "Cathedral Shillong",
+      "Lady Hydari Park"
+    ],
+    "localFood": [
+      "Jadoh",
+      "Dohneiiong",
+      "Tungrymbai"
+    ],
+    "gettingThere": "Road connections from Guwahati are common; keep time for hill traffic.",
+    "experience": "Pine-covered hills, music culture and local markets.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "kaziranga",
+    "name": "Kaziranga",
+    "state": "Assam",
+    "region": "Northeast",
+    "latitude": 26.577,
+    "longitude": 93.172,
+    "category": [
+      "Wildlife",
+      "Nature",
+      "Family"
+    ],
+    "description": "Grasslands, wetland birdlife and responsible wildlife watching.",
+    "bestTime": "Nov / Dec / Jan / Feb / Mar",
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "idealDays": 3,
+    "dailyBudget": 2600,
+    "estimatedBudget": {
+      "budget": 7800,
+      "midRange": 11700,
+      "premium": 23400
+    },
+    "image": "",
+    "activities": [
+      "Kohora visitor area",
+      "Kaziranga Orchid Park",
+      "Kohora market",
+      "Central Range safari entrance"
+    ],
+    "localFood": [
+      "Assamese thali",
+      "Pitha",
+      "Masor tenga"
+    ],
+    "gettingThere": "Travel by road from Guwahati or Jorhat; book park safaris through authorised channels.",
+    "experience": "Grasslands, wetland birdlife and responsible wildlife watching.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "bhopal",
+    "name": "Bhopal",
+    "state": "Madhya Pradesh",
+    "region": "Central",
+    "latitude": 23.259,
+    "longitude": 77.413,
+    "category": [
+      "Culture",
+      "Nature",
+      "Food"
+    ],
+    "description": "Lakeside evenings and a rich mix of museums and heritage.",
+    "bestTime": "Oct / Nov / Dec / Jan / Feb",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "idealDays": 3,
+    "dailyBudget": 1600,
+    "estimatedBudget": {
+      "budget": 4800,
+      "midRange": 7200,
+      "premium": 14400
+    },
+    "image": "",
+    "activities": [
+      "Upper Lake promenade",
+      "Madhya Pradesh Tribal Museum",
+      "Bharat Bhavan",
+      "Taj ul Masajid"
+    ],
+    "localFood": [
+      "Poha jalebi",
+      "Bhopali kebabs",
+      "Bhutte ka kees"
+    ],
+    "gettingThere": "Bhopal has major rail and airport links.",
+    "experience": "Lakeside evenings and a rich mix of museums and heritage.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "khajuraho",
+    "name": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "region": "Central",
+    "latitude": 24.831,
+    "longitude": 79.919,
+    "category": [
+      "Culture",
+      "Architecture",
+      "Heritage"
+    ],
+    "description": "Detailed temple architecture and a gentle small-town pace.",
+    "bestTime": "Oct / Nov / Dec / Jan / Feb",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "idealDays": 2,
+    "dailyBudget": 1800,
+    "estimatedBudget": {
+      "budget": 3600,
+      "midRange": 5400,
+      "premium": 10800
+    },
+    "image": "",
+    "activities": [
+      "Kandariya Mahadev Temple",
+      "Lakshmana Temple Khajuraho",
+      "Archaeological Museum Khajuraho",
+      "Javari Temple"
+    ],
+    "localFood": [
+      "Bundeli thali",
+      "Dal bafla",
+      "Khoya jalebi"
+    ],
+    "gettingThere": "Arrive by rail, road or available airport connections.",
+    "experience": "Detailed temple architecture and a gentle small-town pace.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  },
+  {
+    "id": "andaman",
+    "name": "Sri Vijaya Puram",
+    "state": "Andaman and Nicobar Islands",
+    "region": "Islands",
+    "latitude": 11.623,
+    "longitude": 92.726,
+    "category": [
+      "Beaches",
+      "Nature",
+      "Culture"
+    ],
+    "description": "Island history and coastal scenery, with room for a longer archipelago trip.",
+    "bestTime": "Nov / Dec / Jan / Feb / Mar / Apr",
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "idealDays": 4,
+    "dailyBudget": 3200,
+    "estimatedBudget": {
+      "budget": 12800,
+      "midRange": 19200,
+      "premium": 38400
+    },
+    "image": "",
+    "activities": [
+      "Cellular Jail",
+      "Corbyn Cove",
+      "Samudrika Naval Marine Museum",
+      "Aberdeen Bazaar"
+    ],
+    "localFood": [
+      "Coconut-based curries",
+      "Seafood",
+      "South Indian meals"
+    ],
+    "gettingThere": "Fly to Sri Vijaya Puram (Port Blair); allow separate ferry days for other islands.",
+    "experience": "Island history and coastal scenery, with room for a longer archipelago trip.",
+    "sourceUrl": "https://www.incredibleindia.gov.in/en/destinations",
+    "safetyTips": [
+      "Confirm local opening hours and access before visiting.",
+      "Use registered transport and leave time for delays."
+    ]
+  }
+]

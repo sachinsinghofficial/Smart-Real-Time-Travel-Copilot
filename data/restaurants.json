@@ -1,0 +1,302 @@
+[
+  {
+    "id": "rest-1",
+    "destinationId": "manali",
+    "name": "Johnson's Caf\u00e9",
+    "area": "Old Manali",
+    "averageCost": 450,
+    "cuisine": "North Indian",
+    "popularDishes": [
+      "Siddu",
+      "Thukpa",
+      "Pancakes"
+    ],
+    "vegetarianFriendly": true,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": "rest-2",
+    "destinationId": "manali",
+    "name": "Himalayan Roots Kitchen",
+    "area": "Mall Road",
+    "averageCost": 550,
+    "cuisine": "Himachali",
+    "popularDishes": [
+      "Dham",
+      "Siddu",
+      "Rajma Rice"
+    ],
+    "vegetarianFriendly": true,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": "rest-3",
+    "destinationId": "goa",
+    "name": "Coastal Spice",
+    "area": "Candolim",
+    "averageCost": 650,
+    "cuisine": "Goan",
+    "popularDishes": [
+      "Fish Thali",
+      "Xacuti",
+      "Bebinca"
+    ],
+    "vegetarianFriendly": true,
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": "rest-4",
+    "destinationId": "goa",
+    "name": "Sunset Shack",
+    "area": "Anjuna",
+    "averageCost": 500,
+    "cuisine": "Caf\u00e9",
+    "popularDishes": [
+      "Sandwiches",
+      "Smoothie Bowl",
+      "Seafood"
+    ],
+    "vegetarianFriendly": true,
+    "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": "rest-5",
+    "destinationId": "rishikesh",
+    "name": "Ganga View Caf\u00e9",
+    "area": "Tapovan",
+    "averageCost": 400,
+    "cuisine": "North Indian",
+    "popularDishes": [
+      "Aloo Paratha",
+      "Thali",
+      "Chai"
+    ],
+    "vegetarianFriendly": true,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": "rest-6",
+    "destinationId": "rishikesh",
+    "name": "Little Buddha Caf\u00e9",
+    "area": "Laxman Jhula",
+    "averageCost": 550,
+    "cuisine": "Multi-cuisine",
+    "popularDishes": [
+      "Pizza",
+      "Bowls",
+      "Falafel"
+    ],
+    "vegetarianFriendly": true,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": "rest-7",
+    "destinationId": "udaipur",
+    "name": "Royal Thali House",
+    "area": "Old City",
+    "averageCost": 500,
+    "cuisine": "Rajasthani",
+    "popularDishes": [
+      "Dal Baati",
+      "Gatte",
+      "Churma"
+    ],
+    "vegetarianFriendly": true,
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": "rest-8",
+    "destinationId": "udaipur",
+    "name": "Lakeview Terrace",
+    "area": "Pichola",
+    "averageCost": 800,
+    "cuisine": "Indian",
+    "popularDishes": [
+      "Laal Maas",
+      "Thali",
+      "Kheer"
+    ],
+    "vegetarianFriendly": true,
+    "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": "rest-9",
+    "destinationId": "munnar",
+    "name": "Tea Estate Kitchen",
+    "area": "Chithirapuram",
+    "averageCost": 450,
+    "cuisine": "Kerala",
+    "popularDishes": [
+      "Appam",
+      "Stew",
+      "Parotta"
+    ],
+    "vegetarianFriendly": true,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": "rest-10",
+    "destinationId": "munnar",
+    "name": "Mist Caf\u00e9",
+    "area": "Devikulam",
+    "averageCost": 500,
+    "cuisine": "Caf\u00e9",
+    "popularDishes": [
+      "Tea Cake",
+      "Sandwiches",
+      "Kerala Snacks"
+    ],
+    "vegetarianFriendly": true,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": "rest-11",
+    "destinationId": "jaipur",
+    "name": "Gulabi Rasoi",
+    "area": "Pink City",
+    "averageCost": 450,
+    "cuisine": "Rajasthani",
+    "popularDishes": [
+      "Dal Baati",
+      "Pyaz Kachori",
+      "Ghewar"
+    ],
+    "vegetarianFriendly": true,
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": "rest-12",
+    "destinationId": "jaipur",
+    "name": "Hawa Mahal Caf\u00e9",
+    "area": "Badi Chaupar",
+    "averageCost": 600,
+    "cuisine": "Indian",
+    "popularDishes": [
+      "Thali",
+      "Masala Chai",
+      "Kachori"
+    ],
+    "vegetarianFriendly": true,
+    "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": "rest-13",
+    "destinationId": "darjeeling",
+    "name": "Keventers Corner",
+    "area": "Chowrasta",
+    "averageCost": 450,
+    "cuisine": "Caf\u00e9",
+    "popularDishes": [
+      "Hot Chocolate",
+      "Sandwiches",
+      "Momos"
+    ],
+    "vegetarianFriendly": true,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": "rest-14",
+    "destinationId": "darjeeling",
+    "name": "Darjeeling Kitchen",
+    "area": "Chowrasta",
+    "averageCost": 500,
+    "cuisine": "Bengali-Nepali",
+    "popularDishes": [
+      "Thukpa",
+      "Momos",
+      "Rice Plate"
+    ],
+    "vegetarianFriendly": true,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": "rest-15",
+    "destinationId": "varanasi",
+    "name": "Kashi Rasoi",
+    "area": "Godowlia",
+    "averageCost": 350,
+    "cuisine": "North Indian",
+    "popularDishes": [
+      "Kachori Sabzi",
+      "Thali",
+      "Lassi"
+    ],
+    "vegetarianFriendly": true,
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": "rest-16",
+    "destinationId": "varanasi",
+    "name": "Ghat Caf\u00e9",
+    "area": "Assi",
+    "averageCost": 450,
+    "cuisine": "Caf\u00e9",
+    "popularDishes": [
+      "Pasta",
+      "Chai",
+      "Banarasi Snacks"
+    ],
+    "vegetarianFriendly": true,
+    "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": "rest-17",
+    "destinationId": "leh",
+    "name": "High Pass Kitchen",
+    "area": "Changspa",
+    "averageCost": 650,
+    "cuisine": "Ladakhi",
+    "popularDishes": [
+      "Momos",
+      "Thukpa",
+      "Skyu"
+    ],
+    "vegetarianFriendly": true,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": "rest-18",
+    "destinationId": "leh",
+    "name": "Mountain Caf\u00e9",
+    "area": "Skara",
+    "averageCost": 700,
+    "cuisine": "Caf\u00e9",
+    "popularDishes": [
+      "Pancakes",
+      "Soup",
+      "Coffee"
+    ],
+    "vegetarianFriendly": true,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": "rest-19",
+    "destinationId": "amritsar",
+    "name": "Kesar da Dhaba",
+    "area": "Old City",
+    "averageCost": 500,
+    "cuisine": "Punjabi",
+    "popularDishes": [
+      "Dal Makhani",
+      "Amritsari Kulcha",
+      "Lassi"
+    ],
+    "vegetarianFriendly": true,
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": "rest-20",
+    "destinationId": "amritsar",
+    "name": "Sarhad Caf\u00e9",
+    "area": "Ranjit Avenue",
+    "averageCost": 550,
+    "cuisine": "Punjabi",
+    "popularDishes": [
+      "Chole Bhature",
+      "Tandoori Platter",
+      "Lassi"
+    ],
+    "vegetarianFriendly": true,
+    "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=900&q=80"
+  }
+]

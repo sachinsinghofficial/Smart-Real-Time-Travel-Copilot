@@ -1,0 +1,44 @@
+[
+  {
+    "role": "homepage hero",
+    "title": "Panorama of Himalayas from Ranikhet, Uttarakhand, India",
+    "width": 7570,
+    "height": 2200,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Panorama_of_Himalayas_from_Ranikhet,_Uttarakhand,_India.jpg",
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Panorama_of_Himalayas_from_Ranikhet%2C_Uttarakhand%2C_India.jpg",
+    "author": "Harshit SR; derivative work by UnpetitproleX",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Himalayas from Ranikhet — Harshit SR / UnpetitproleX, via Wikimedia Commons, CC BY-SA 4.0.",
+    "reuse": "Credit authors, link source and license, and indicate edits. Share adaptations of this image under the same or compatible license.",
+    "changes": "Resized and converted to WebP; cropped responsively in the interface."
+  },
+  {
+    "role": "Jaipur destination card",
+    "title": "Hawa Mahal in Jaipur, India",
+    "width": 7840,
+    "height": 3188,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Hawa_Mahal_in_Jaipur,_India.jpg",
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Hawa_Mahal_in_Jaipur%2C_India.jpg",
+    "author": "Prajeshdutta",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Hawa Mahal — Prajeshdutta, via Wikimedia Commons, CC BY-SA 4.0.",
+    "reuse": "Credit author, link source and license, and indicate edits. Share adaptations of this image under the same or compatible license.",
+    "changes": "Resized and converted to WebP; cropped responsively in the interface."
+  },
+  {
+    "role": "Kerala destination card — preferred",
+    "title": "Houseboat at Kerala Backwaters",
+    "width": 6000,
+    "height": 4000,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Houseboat_at_Kerala_Backwaters.jpg",
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/1/12/Houseboat_at_Kerala_Backwaters.jpg",
+    "author": "Prasan Padale (PrasanPadale)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Kerala backwaters — Prasan Padale, via Wikimedia Commons, CC BY-SA 4.0.",
+    "reuse": "Credit author, link source and license, and indicate edits. Share adaptations of this image under the same or compatible license.",
+    "changes": "Resized and converted to WebP; cropped responsively in the interface."
+  }
+]

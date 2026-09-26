@@ -1,0 +1,2 @@
+export type NearbyPlace={id:string;name:string;kind:'hotel'|'restaurant'|'experience'|'transport';latitude:number;longitude:number;source:'openstreetmap';sourceUrl:string;distanceKm:number;nearStop:string;nearStopId?:string;dayNumbers:number[];cuisine?:string;vegetarian?:string;vegan?:string;brand?:string;openingHours?:string;phone?:string;wheelchair?:string;localMatch:boolean;matchReason:string};
+export type NearbyResult={places:NearbyPlace[];status:'available'|'partial'|'unavailable';checkedAt:string;radiusKm:number;message:string};

@@ -1,0 +1,6 @@
+export type BookingKind='hotel'|'restaurant'|'vehicle'|'bus'|'train'|'flight';
+export type BookingSearch={kind:BookingKind;mode:'demo'|'test';destinationId:string;from:string;checkIn:string;checkOut:string;rooms:number;adults:number;childrenAges:number[];pickupAirport?:string;dropoffHotel?:string;pickupTime:string;latitude?:number;longitude?:number;radiusKm?:number;areaName?:string;budgetLimit?:number};
+export type BookingOffer={id:string;name:string;kind:BookingKind;mode:'demo'|'test';provider:string;price:number;currency:string;priceLabel:string;description:string;amenities:string[];cancellation:string[];terms:string;capacity?:number;stars?:number;image?:string;hotelCode?:string;rateKey?:string;rateType?:string;serviceId?:string;latitude?:number;longitude?:number;token?:string;query:BookingSearch};
+export type Guest={name:string;surname:string};
+export type BookingContact={name:string;surname:string;email:string;phone:string;flightNumber?:string;guests?:Guest[]};
+export type BookingReceipt={id:string;reference:string;name:string;kind:BookingKind;mode:'demo'|'test';status:string;price:number;currency:string;destinationId:string;startDate:string;endDate:string;createdAt:string;message:string};

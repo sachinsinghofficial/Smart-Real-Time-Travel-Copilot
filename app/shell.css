@@ -1,0 +1,91 @@
+
+/* TravelSetu critical shell fix: do not remove. */
+html, body { margin: 0; min-height: 100%; }
+body { background: var(--travel-cloud) !important; color: var(--travel-ink); }
+
+.app-topbar {
+  position: fixed !important;
+  top: 0 !important;
+  right: 0 !important;
+  left: 0 !important;
+  height: 76px !important;
+  z-index: 80 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 24px !important;
+  background: #fff !important;
+  border-bottom: 1px solid #e3e8e0 !important;
+  padding: 0 28px !important;
+}
+
+.app-sidebar {
+  position: fixed !important;
+  top: 76px !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  width: 222px !important;
+  z-index: 70 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  background: #fff !important;
+  border-right: 1px solid #e3e8e0 !important;
+  overflow-y: auto !important;
+  padding: 22px 13px 16px !important;
+}
+
+.app-workspace {
+  margin-left: 222px !important;
+  padding-top: 76px !important;
+  min-width: 0 !important;
+}
+
+.app-brand {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  width: 205px !important;
+  flex-shrink: 0 !important;
+  color: #064c32 !important;
+  font-size: 25px !important;
+  font-weight: 800 !important;
+  line-height: 1.15 !important;
+}
+
+.app-brand small {
+  display: block !important;
+  margin-top: 4px !important;
+  font-size: 10px !important;
+  font-weight: 400 !important;
+}
+
+.global-search-wrap { position: relative !important; width: min(500px,45vw) !important; }
+.global-search { display: flex !important; align-items: center !important; gap: 12px !important; }
+.sidebar-link {
+  display: flex !important;
+  align-items: center !important;
+  gap: 13px !important;
+  padding: 11px 13px !important;
+  margin: 3px 0 !important;
+  border-radius: 8px !important;
+  min-height: 45px !important;
+  font-size: 14px !important;
+  white-space: nowrap !important;
+}
+
+.page-shell { min-height: calc(100vh - 145px) !important; padding: 28px 0 48px !important; }
+.container-page { width: calc(100% - 56px) !important; max-width: 1450px !important; margin: 0 auto !important; }
+.panel { border: 1px solid var(--travel-border); border-radius: 18px; background: #fff; padding: 24px; }
+
+@media (max-width: 1000px) {
+  .app-sidebar { transform: translateX(-100%) !important; transition: transform .2s !important; }
+  .app-sidebar.is-open { transform: translateX(0) !important; }
+  .app-workspace { margin-left: 0 !important; }
+  .mobile-menu { display: block !important; }
+}
+@media (max-width: 600px) {
+  .app-topbar { height: 66px !important; padding: 0 18px !important; }
+  .app-sidebar { top: 66px !important; }
+  .app-workspace { padding-top: 66px !important; }
+  .container-page { width: calc(100% - 28px) !important; }
+  .global-search-wrap { display: none !important; }
+}

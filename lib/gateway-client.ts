@@ -1,0 +1,3 @@
+'use client';
+import {supabase} from './supabase';
+export async function gatewaySocket(onMessage:(value:any)=>void,onUnavailable:()=>void){const base=process.env.NEXT_PUBLIC_GATEWAY_URL;if(!base)return null;let socket:WebSocket;try{const url=new URL('/ws',base);url.protocol=url.protocol==='https:'?'wss:':'ws:';socket=new WebSocket(url);}catch{onUnavailable();return null;}socket.onmessage=async e=>{try{const data=JSON.parse(e.data);if(data.type==='hello'){const c=supabase();const session=c?await c.auth.getSession():null;if(socket.readyState===WebSocket.OPEN)socket.send(JSON.stringify({type:'auth',token:session?.data.session?.access_token||''}));}else onMessage(data);}catch{onUnavailable();}};socket.onerror=onUnavailable;return socket;}

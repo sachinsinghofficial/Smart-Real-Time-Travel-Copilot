@@ -1,0 +1,23 @@
+[
+  {
+    "id": "emergency-112",
+    "name": "National emergency",
+    "number": "112",
+    "description": "India national emergency number. Ask for the emergency service you need.",
+    "sourceUrl": "https://tourism.gov.in/sites/default/files/2024-04/MOT%20India%20Map_Digital.pdf"
+  },
+  {
+    "id": "tourist-short",
+    "name": "Tourist information helpline",
+    "number": "1363",
+    "description": "Ministry of Tourism information and assistance; not a substitute for emergency dispatch.",
+    "sourceUrl": "https://tourism.gov.in/"
+  },
+  {
+    "id": "tourist-tollfree",
+    "name": "Tourist helpline alternate",
+    "number": "1800111363",
+    "description": "Toll-free tourist information and assistance.",
+    "sourceUrl": "https://tourism.gov.in/"
+  }
+]

@@ -1,0 +1,14 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {spawnSync} from 'node:child_process';
+import {fileURLToPath} from 'node:url';
+import {TokenBucket,MemoryCache} from '../services/gateway/src/limits.ts';
+import {routeCommand} from '../services/gateway/src/ipc.ts';
+const binary=fileURLToPath(new URL('../services/compute/build/travelsetu-compute',import.meta.url));
+const run=command=>spawnSync(binary,['--request',command],{encoding:'utf8'});
+test('native vector calculation handles scalar tails and vector batches',()=>{for(const size of [1,3,16,35]){const cmd='DOT '+size+' '+Array(size).fill(2).join(' ')+' '+Array(size).fill(3).join(' ');const result=run(cmd);assert.equal(result.status,0);assert.equal(JSON.parse(result.stdout).value,size*6);}});
+test('native route suggestion retains all stops and labels geographic ordering',()=>{const r=run(routeCommand([{latitude:0,longitude:0},{latitude:0,longitude:2},{latitude:0,longitude:1}]));assert.equal(r.status,0);const data=JSON.parse(r.stdout);assert.deepEqual(data.order,[0,2,1]);assert.equal(data.navigation,false);assert.ok(data.distanceKm>220&&data.distanceKm<224);});
+test('native protocol rejects invalid coordinates, excessive input and unsupported commands',()=>{for(const command of ['ROUTE 2 999 0 0 0','ROUTE 65','DOT 4097','DOT 2 1 2 3','DELETE ALL'])assert.notEqual(run(command).status,0);assert.throws(()=>routeCommand([{latitude:NaN,longitude:0},{latitude:0,longitude:0}]));});
+test('optional CUDA and local inference fail clearly when unconfigured',()=>{assert.match(run('DOT_GPU 1 1 1').stderr,/CUDA/);assert.match(run('LLM hello').stderr,/not configured/);});
+test('gateway burst limiter bounds requests and replenishes without clock rewind gains',()=>{const bucket=new TokenBucket(20,100),now=Date.now();for(let i=0;i<100;i++)assert.equal(bucket.take(now),true);assert.equal(bucket.take(now),false);assert.equal(bucket.take(now-1000),false);});
+test('public in-memory cache is capped and evicts oldest entry',()=>{const cache=new MemoryCache();for(let i=0;i<101;i++)cache.set(String(i),i);assert.equal(cache.get('0'),null);assert.equal(cache.get('100'),100);});

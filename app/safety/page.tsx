@@ -1,0 +1,7 @@
+'use client';
+import {useEffect,useState} from 'react';
+import Link from 'next/link';
+import {ShieldCheck,MapPin,ArrowRight} from 'lucide-react';
+import type {Itinerary} from '@/lib/itinerary';
+import ConditionsPanel from '@/app/components/ConditionsPanel';
+export default function SafetyPage(){const [plan,setPlan]=useState<Itinerary|null>(null),[ready,setReady]=useState(false);useEffect(()=>{try{setPlan(JSON.parse(localStorage.getItem('travelsetu_itinerary')||'null'));}catch{}setReady(true);},[]);return <main className="page-shell"><div className="container-page safety-focus"><div className="page-head"><div><p className="eyebrow"><ShieldCheck size={15}/> SAFETY & SOS</p><h1 className="page-title">A clearer picture. A calmer journey.</h1><p className="text-sm muted">Weather, road reports and itinerary changes in one place.</p></div>{plan&&<span className="destination-pill"><MapPin size={16}/>{plan.destination}</span>}</div><section className="mt-8">{plan?<ConditionsPanel itinerary={plan} onUpdate={setPlan}/>:<div className="panel safety-empty"><ShieldCheck size={38}/><h2>{ready?'Start with your itinerary.':'Opening your trip…'}</h2><p>We’ll check conditions for your places and dates.</p><Link href="/plan-trip" className="btn-primary">Plan a trip <ArrowRight size={16}/></Link><a className="text-link mt-4" href="https://sachet.ndma.gov.in/" target="_blank" rel="noreferrer">Official NDMA alerts ↗</a></div>}</section></div></main>;}

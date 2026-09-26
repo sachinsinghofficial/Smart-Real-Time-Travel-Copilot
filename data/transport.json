@@ -1,0 +1,182 @@
+[
+  {
+    "id": "transport-1",
+    "destinationId": "manali",
+    "mode": "Bus from Delhi",
+    "estimatedCost": 850,
+    "travelTime": "11h 30m",
+    "availability": "Demo dataset",
+    "notes": "Final availability and fares should be checked before booking."
+  },
+  {
+    "id": "transport-2",
+    "destinationId": "manali",
+    "mode": "Volvo Bus",
+    "estimatedCost": 1300,
+    "travelTime": "10h 30m",
+    "availability": "Demo dataset",
+    "notes": "Final availability and fares should be checked before booking."
+  },
+  {
+    "id": "transport-3",
+    "destinationId": "goa",
+    "mode": "Flight from Delhi",
+    "estimatedCost": 4200,
+    "travelTime": "2h 40m",
+    "availability": "Demo dataset",
+    "notes": "Final availability and fares should be checked before booking."
+  },
+  {
+    "id": "transport-4",
+    "destinationId": "goa",
+    "mode": "Train from Mumbai",
+    "estimatedCost": 1100,
+    "travelTime": "12h",
+    "availability": "Demo dataset",
+    "notes": "Final availability and fares should be checked before booking."
+  },
+  {
+    "id": "transport-5",
+    "destinationId": "rishikesh",
+    "mode": "Train from Delhi",
+    "estimatedCost": 700,
+    "travelTime": "5h",
+    "availability": "Demo dataset",
+    "notes": "Final availability and fares should be checked before booking."
+  },
+  {
+    "id": "transport-6",
+    "destinationId": "rishikesh",
+    "mode": "Bus from Delhi",
+    "estimatedCost": 650,
+    "travelTime": "6h",
+    "availability": "Demo dataset",
+    "notes": "Final availability and fares should be checked before booking."
+  },
+  {
+    "id": "transport-7",
+    "destinationId": "udaipur",
+    "mode": "Train from Delhi",
+    "estimatedCost": 900,
+    "travelTime": "7h",
+    "availability": "Demo dataset",
+    "notes": "Final availability and fares should be checked before booking."
+  },
+  {
+    "id": "transport-8",
+    "destinationId": "udaipur",
+    "mode": "Bus from Jaipur",
+    "estimatedCost": 500,
+    "travelTime": "7h",
+    "availability": "Demo dataset",
+    "notes": "Final availability and fares should be checked before booking."
+  },
+  {
+    "id": "transport-9",
+    "destinationId": "munnar",
+    "mode": "Flight + Cab",
+    "estimatedCost": 4300,
+    "travelTime": "5h 30m",
+    "availability": "Demo dataset",
+    "notes": "Final availability and fares should be checked before booking."
+  },
+  {
+    "id": "transport-10",
+    "destinationId": "munnar",
+    "mode": "Bus from Kochi",
+    "estimatedCost": 650,
+    "travelTime": "4h 30m",
+    "availability": "Demo dataset",
+    "notes": "Final availability and fares should be checked before booking."
+  },
+  {
+    "id": "transport-11",
+    "destinationId": "jaipur",
+    "mode": "Train from Delhi",
+    "estimatedCost": 600,
+    "travelTime": "4h 30m",
+    "availability": "Demo dataset",
+    "notes": "Final availability and fares should be checked before booking."
+  },
+  {
+    "id": "transport-12",
+    "destinationId": "jaipur",
+    "mode": "Bus from Delhi",
+    "estimatedCost": 550,
+    "travelTime": "5h",
+    "availability": "Demo dataset",
+    "notes": "Final availability and fares should be checked before booking."
+  },
+  {
+    "id": "transport-13",
+    "destinationId": "darjeeling",
+    "mode": "Train + Cab",
+    "estimatedCost": 2200,
+    "travelTime": "9h",
+    "availability": "Demo dataset",
+    "notes": "Final availability and fares should be checked before booking."
+  },
+  {
+    "id": "transport-14",
+    "destinationId": "darjeeling",
+    "mode": "Flight + Cab",
+    "estimatedCost": 5200,
+    "travelTime": "4h 30m",
+    "availability": "Demo dataset",
+    "notes": "Final availability and fares should be checked before booking."
+  },
+  {
+    "id": "transport-15",
+    "destinationId": "varanasi",
+    "mode": "Train from Delhi",
+    "estimatedCost": 900,
+    "travelTime": "8h",
+    "availability": "Demo dataset",
+    "notes": "Final availability and fares should be checked before booking."
+  },
+  {
+    "id": "transport-16",
+    "destinationId": "varanasi",
+    "mode": "Flight from Delhi",
+    "estimatedCost": 3600,
+    "travelTime": "2h 20m",
+    "availability": "Demo dataset",
+    "notes": "Final availability and fares should be checked before booking."
+  },
+  {
+    "id": "transport-17",
+    "destinationId": "leh",
+    "mode": "Flight from Delhi",
+    "estimatedCost": 5200,
+    "travelTime": "1h 20m",
+    "availability": "Demo dataset",
+    "notes": "Final availability and fares should be checked before booking."
+  },
+  {
+    "id": "transport-18",
+    "destinationId": "leh",
+    "mode": "Shared Cab",
+    "estimatedCost": 1800,
+    "travelTime": "12h",
+    "availability": "Demo dataset",
+    "notes": "Final availability and fares should be checked before booking."
+  },
+  {
+    "id": "transport-19",
+    "destinationId": "amritsar",
+    "mode": "Train from Delhi",
+    "estimatedCost": 850,
+    "travelTime": "6h 30m",
+    "availability": "Demo dataset",
+    "notes": "Final availability and fares should be checked before booking."
+  },
+  {
+    "id": "transport-20",
+    "destinationId": "amritsar",
+    "mode": "Bus from Delhi",
+    "estimatedCost": 700,
+    "travelTime": "7h",
+    "availability": "Demo dataset",
+    "notes": "Final availability and fares should be checked before booking."
+  }
+]

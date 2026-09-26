@@ -1,0 +1,16 @@
+import {weatherDescription} from './weather';
+export type SkyPoint={time:string;temperature:number|null;feelsLike:number|null;rainProbability:number|null;precipitation:number|null;windSpeed:number|null;windGusts:number|null;windDirection:number|null;humidity:number|null;weatherCode:number|null;description:string};
+export type AirQuality={time:string;usAqi:number;pm25:number|null;pm10:number|null;label:string;source:'Open-Meteo / CAMS'};
+const number=(v:unknown)=>typeof v==='number'&&Number.isFinite(v)?v:null;
+export function skyPoint(time:string,read:(key:string)=>unknown):SkyPoint{const code=number(read('weather_code'));return {time,temperature:number(read('temperature_2m')),feelsLike:number(read('apparent_temperature')),rainProbability:number(read('precipitation_probability')),precipitation:number(read('precipitation')),windSpeed:number(read('wind_speed_10m')),windGusts:number(read('wind_gusts_10m')),windDirection:number(read('wind_direction_10m')),humidity:number(read('relative_humidity_2m')),weatherCode:code,description:code===null?'Not available':weatherDescription(code)};}
+export function parseSky(raw:{current?:Record<string,unknown>;hourly?:Record<string,unknown[]>},now=new Date()){
+ const h=raw.hourly||{},hourly=(Array.isArray(h.time)?h.time:[]).flatMap((t,i)=>{if(typeof t!=='string'||!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/.test(t))return [];const date=new Date(t+'+05:30');if(date.getTime()<now.getTime()-3600000||date.getTime()>now.getTime()+24*3600000)return [];const point=skyPoint(t,k=>h[k]?.[i]);return point.temperature===null?[]:[point];}).slice(0,24);
+ const c=raw.current;const current=typeof c?.time==='string'?skyPoint(c.time,k=>c[k]):undefined;
+ return {skyCurrent:current,hourly};
+}
+export function aqiLabel(n:number){return n<=50?'Good':n<=100?'Moderate':n<=150?'Unhealthy for sensitive groups':n<=200?'Unhealthy':n<=300?'Very unhealthy':'Hazardous';}
+export function parseAirQuality(raw:{current?:Record<string,unknown>}):AirQuality|undefined{const c=raw.current,n=number(c?.us_aqi);if(n===null||n<0||typeof c?.time!=='string')return undefined;return {time:c.time,usAqi:n,pm25:number(c.pm2_5),pm10:number(c.pm10),label:aqiLabel(n),source:'Open-Meteo / CAMS'};}
+const cache=new Map<string,{expires:number;data:AirQuality}>();
+export async function getAirQuality(latitude:number,longitude:number,http:typeof fetch=fetch){const key=latitude+':'+longitude,cached=cache.get(key);if(http===fetch&&cached&&cached.expires>Date.now())return cached.data;
+ try{const u=new URL('https://air-quality-api.open-meteo.com/v1/air-quality');u.search=new URLSearchParams({latitude:String(latitude),longitude:String(longitude),current:'us_aqi,pm2_5,pm10',timezone:'Asia/Kolkata'}).toString();const r=await http(u,{signal:AbortSignal.timeout(8000),cache:'no-store'});if(!r.ok)return undefined;const data=parseAirQuality(await r.json());if(data&&http===fetch){if(cache.size>=60)cache.delete(cache.keys().next().value!);cache.set(key,{data,expires:Date.now()+600000});}return data;}catch{return undefined;}}
+export function compassDirection(n:number|null){if(n===null)return '—';return ['N','NNE','NE','ENE','E','ESE','SE','SSE','S','SSW','SW','WSW','W','WNW','NW','NNW'][Math.round(((n%360+360)%360)/22.5)%16];}

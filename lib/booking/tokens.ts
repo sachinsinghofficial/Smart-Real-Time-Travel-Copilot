@@ -1,0 +1,7 @@
+import { createHmac, randomBytes, timingSafeEqual, randomUUID } from 'node:crypto';
+import type { BookingOffer } from './types';
+const state=globalThis as typeof globalThis&{travelsetuSigningKey?:string};
+function secret(){return process.env.BOOKING_SIGNING_SECRET||(state.travelsetuSigningKey??=randomBytes(32).toString('hex'));}
+export type OfferToken={offer:BookingOffer;phase:'offer'|'quote';nonce:string;expires:number};
+export function signOffer(offer:BookingOffer,phase:OfferToken['phase'],nonce:string=randomUUID()){const clean={...offer};delete clean.token;const content=Buffer.from(JSON.stringify({offer:clean,phase,nonce,expires:Date.now()+10*60*1000})).toString('base64url');return content+'.'+createHmac('sha256',secret()).update(content).digest('base64url');}
+export function readOffer(value:unknown):OfferToken{if(typeof value!=='string'||value.length>40000)throw new Error('Invalid offer.');const [content,sig]=value.split('.');if(!content||!sig)throw new Error('Invalid offer.');const expected=createHmac('sha256',secret()).update(content).digest(),actual=Buffer.from(sig,'base64url');if(actual.length!==expected.length||!timingSafeEqual(expected,actual))throw new Error('Offer was changed or expired. Search again.');const parsed=JSON.parse(Buffer.from(content,'base64url').toString()) as OfferToken;if(!Number.isFinite(parsed.expires)||parsed.expires<Date.now()||!/^[a-f0-9-]{36}$/.test(parsed.nonce))throw new Error('This quote expired. Search again.');return parsed;}

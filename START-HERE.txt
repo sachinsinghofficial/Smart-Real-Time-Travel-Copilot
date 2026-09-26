@@ -1,0 +1,40 @@
+TRAVELSETU — FOREST WORKSPACE (v0.4)
+
+1. Extract the ZIP fully.
+2. Open the extracted folder containing package.json in VS Code.
+   If npm says ENOENT/package.json missing, you are in the wrong folder.
+   This ZIP puts package.json directly at its root to avoid nested-folder confusion.
+3. Install Node.js 22.18+ or Node 24.
+
+WINDOWS POWERSHELL (inside the folder containing package.json):
+  npm.cmd ci
+  Copy-Item .env.example .env.local
+  notepad .env.local
+  npm.cmd run dev
+
+MAC / LINUX TERMINAL:
+  npm ci
+  cp .env.example .env.local
+  # Edit .env.local in VS Code and add your Gemini key.
+  npm run dev
+
+Open http://localhost:3000
+
+GEMINI_API_KEY is REQUIRED to create a new itinerary.
+Use GEMINI_MODEL=gemini-2.5-flash unless AI Studio confirms a different model code for your key.
+After changing .env.local, stop the dev server and run npm run dev again.
+There is no automatic JSON/sample itinerary fallback.
+The JSON response format is still used to safely render Gemini's generated content.
+
+Supabase configuration enables accounts and permanent data.
+See README.md for setup. The optional gateway/C++/CUDA setup is in
+ docs/ARCHITECTURE.md and is not required to run the website.
+Native services need Linux/macOS/WSL2; CUDA needs compatible NVIDIA hardware.
+
+THIS UPDATE: Keep your existing .env.local when replacing source files.
+The shared ZIP contains no private API key. If starting from a fresh extraction,
+copy .env.example to .env.local and enter your key there.
+Run npm install, then npm run check:gemini, then npm run dev.
+Map: Start GPS tracking -> mark visits -> Create route image -> preview/download/share.
+Itinerary: Expand nearby choices under each day's timeline. Demo rates are labelled.
+Budget: Review budget on the itinerary page, or adjust directly after an over-budget error.

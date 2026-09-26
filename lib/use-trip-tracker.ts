@@ -1,0 +1,17 @@
+'use client';
+import {useCallback,useEffect,useRef,useState} from 'react';
+import {appendTrackPoint,emptyTrack,validTrackPoint,type TrackPoint,type TripTrack} from './tracking';
+export function useTripTracker(key:string){
+ const [track,setTrack]=useState<TripTrack>(emptyTrack),[active,setActive]=useState(false),[position,setPosition]=useState<TrackPoint|null>(null),[message,setMessage]=useState(''),[loadedKey,setLoadedKey]=useState('');
+ const watch=useRef<number|null>(null),segment=useRef(0),activeSince=useRef(0),timer=useRef<ReturnType<typeof setInterval>|null>(null);
+ const stop=useCallback(()=>{if(watch.current!==null)navigator.geolocation.clearWatch(watch.current);watch.current=null;if(timer.current)clearInterval(timer.current);timer.current=null;if(activeSince.current){const seconds=Math.max(0,Math.floor((Date.now()-activeSince.current)/1000));setTrack(t=>({...t,elapsedSeconds:t.elapsedSeconds+seconds}));}activeSince.current=0;setActive(false);},[]);
+ useEffect(()=>{stop();setPosition(null);try{const value=JSON.parse(localStorage.getItem(key)||'null');const points=Array.isArray(value?.points)?value.points.filter(validTrackPoint).slice(-20000):[];setTrack({points,stops:Array.isArray(value?.stops)?value.stops.filter((p:TrackPoint&{id:string;name:string})=>validTrackPoint(p)&&typeof p.id==='string'&&typeof p.name==='string').slice(-200):[],elapsedSeconds:Math.max(0,Number(value?.elapsedSeconds)||0)});segment.current=Math.max(0,...points.map((p:TrackPoint)=>p.segment))+1;}catch{setTrack(emptyTrack());}setLoadedKey(key);return stop;},[key,stop]);
+ useEffect(()=>{if(loadedKey!==key)return;try{localStorage.setItem(key,JSON.stringify(track));}catch{setMessage('Storage is full. Download your route image before leaving this page.');}},[track,key,loadedKey]);
+ function start(){if(active||watch.current!==null)return;if(!navigator.geolocation){setMessage('This browser does not support GPS.');return;}segment.current++;activeSince.current=Date.now();setActive(true);setMessage('Waiting for GPS. Keep this page open while recording.');
+ timer.current=setInterval(()=>{const now=Date.now(),seconds=Math.floor((now-activeSince.current)/1000);activeSince.current+=seconds*1000;setTrack(t=>({...t,elapsedSeconds:t.elapsedSeconds+seconds}));},1000);
+ watch.current=navigator.geolocation.watchPosition(p=>{const next={latitude:p.coords.latitude,longitude:p.coords.longitude,accuracy:p.coords.accuracy,timestamp:p.timestamp,segment:segment.current};setPosition(next);setTrack(t=>({...t,points:appendTrackPoint(t.points,next)}));setMessage(p.coords.accuracy>100?'GPS is imprecise. Waiting for accuracy within 100 m before recording the route.':'Recording on this device. GPS can pause when the screen locks.');},e=>{setMessage(e.code===1?'Location permission denied. Allow location in your browser, then start again.':'GPS unavailable. Move to an open area and try again.');if(e.code===1)stop();},{enableHighAccuracy:true,timeout:20000,maximumAge:0});
+ }
+ function markStop(name:string){if(!position||Date.now()-position.timestamp>60000||!validTrackPoint(position)){setMessage('Wait for a fresh, accurate GPS position before marking a visit.');return;}setTrack(t=>({...t,stops:[...t.stops,{...position,id:crypto.randomUUID(),name:name.trim().slice(0,100)||`Visited stop ${t.stops.length+1}`}].slice(-200)}));setMessage('Visited stop saved on this device.');}
+ function reset(){stop();setTrack(emptyTrack());setPosition(null);setMessage('Saved recording cleared.');}
+ return {track,active,position,message,start,stop,markStop,reset};
+}

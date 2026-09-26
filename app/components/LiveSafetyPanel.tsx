@@ -1,0 +1,24 @@
+'use client';
+import {useCallback,useEffect,useRef,useState} from 'react';
+import type {TrackPoint} from '@/lib/tracking';
+import {directionsUrl} from '@/lib/tracking';
+import {distanceKm} from '@/lib/itinerary';
+import type {MapPoint} from '@/lib/map';
+export default function LiveSafetyPanel({position,onPoints,onSelect}:{position:TrackPoint|null;onPoints:(points:MapPoint[])=>void;onSelect:(id:string)=>void}){
+ const [points,setPoints]=useState<MapPoint[]>([]),[busy,setBusy]=useState(false),[message,setMessage]=useState(''),[stamp,setStamp]=useState(''),[category,setCategory]=useState('all'),[,setTick]=useState(0);
+ const latest=useRef(position),last=useRef<TrackPoint|null>(null),lastAt=useRef(0),abort=useRef<AbortController|null>(null),onPointsRef=useRef(onPoints);
+ useEffect(()=>{latest.current=position;},[position]);useEffect(()=>{onPointsRef.current=onPoints;},[onPoints]);
+ const refresh=useCallback(async()=>{const pos=latest.current;if(!pos||Date.now()-pos.timestamp>60000){setMessage('Start tracking and wait for a fresh GPS fix to search near you.');return;}if(abort.current)return;
+ const controller=new AbortController();abort.current=controller;const timeout=setTimeout(()=>controller.abort(),22000);lastAt.current=Date.now();setBusy(true);setMessage('Finding hospitals and police within 5 km…');setPoints([]);onPointsRef.current([]);
+ try{const q=new URLSearchParams({lat:String(pos.latitude),lng:String(pos.longitude),radius:'5',services:'emergency'});const r=await fetch('/api/places?'+q,{signal:controller.signal,cache:'no-store'}),data=await r.json();if(!r.ok)throw new Error(data.error);const found=(data.points as MapPoint[]).filter(p=>p.category==='hospital'||p.category==='police');setPoints(found);onPointsRef.current(found);last.current=pos;setStamp(data.fetchedAt);setMessage(found.length?'Community listings · services and opening hours are unverified.':'No mapped hospitals or police stations were returned within 5 km.');}
+ catch(e){if(!controller.signal.aborted)setMessage(e instanceof Error?e.message:'Nearby lookup unavailable.');else setMessage('Nearby search timed out. Try again.');}finally{clearTimeout(timeout);abort.current=null;setBusy(false);}
+ },[]);
+ useEffect(()=>{if(position&&Date.now()-lastAt.current>60000&&(!last.current||distanceKm(last.current,position)>.5))void refresh();},[position,refresh]);
+ useEffect(()=>{const timer=setInterval(()=>{setTick(t=>t+1);if(latest.current&&Date.now()-lastAt.current>120000)void refresh();},30000);return()=>{clearInterval(timer);abort.current?.abort();};},[refresh]);
+ const fresh=!!position&&Date.now()-position.timestamp<=60000;
+ // Discard locations outside the live radius when the traveller moves.
+ const nearby=points.filter(p=>position&&distanceKm(position,{latitude:p.lat,longitude:p.lng})<=5);
+ return <section className="panel" aria-label="Emergency services near device location"><h2 className="font-semibold">Near my location</h2><p className="mt-2 text-xs muted">{position?`${fresh?'Recent GPS fix':'Last known position'} · ±${Math.round(position.accuracy)} m · ${new Date(position.timestamp).toLocaleTimeString('en-IN')}`:'Start GPS tracking to find services around you.'}</p><div className="mt-3 flex flex-wrap gap-2">{[['all','All'],['hospital','Hospitals'],['police','Police']].map(([id,label])=><button key={id} className="chip" aria-pressed={category===id} onClick={()=>setCategory(id)}>{label}</button>)}</div>
+ <div className="mt-3 max-h-96 space-y-3 overflow-auto">{nearby.filter(p=>category==='all'||p.category===category).slice(0,10).map(p=><article key={p.id} className="rounded-lg border p-3"><button className="text-left text-sm font-semibold" onClick={()=>onSelect(p.id)}>{p.name}</button><p className="mt-1 text-xs muted">{p.category} · {position?distanceKm(position,{latitude:p.lat,longitude:p.lng}).toFixed(1):'—'} km straight-line</p><a className="mt-2 block text-xs font-semibold text-[#075b3d]" href={directionsUrl({latitude:p.lat,longitude:p.lng},fresh&&position?position:undefined)}>Navigate in TravelSetu →</a>{p.phone&&<p className="mt-2 text-xs">Listed phone: {p.phone}</p>}</article>)}</div>
+ {message&&<p role="status" className="mt-3 text-xs muted">{message}</p>}<button className="btn-secondary mt-3 w-full" disabled={busy||!fresh} onClick={()=>void refresh()}>{busy?'Searching…':'Refresh near me'}</button>{stamp&&<p className="mt-2 text-xs muted">Listings checked {new Date(stamp).toLocaleTimeString('en-IN')}. Results may be incomplete.</p>}<p className="mt-3 text-xs muted">Searching sends your coordinates to the map lookup service. No live location is shared with friends.</p><a href="tel:112" className="mt-3 block font-semibold text-red-700">Emergency in India: call 112</a><a className="mt-2 block text-xs muted underline" href="https://www.mha.gov.in/en/commoncontent/emergency-response-support-system-erss" target="_blank" rel="noreferrer">Official emergency number information ↗</a></section>;
+}

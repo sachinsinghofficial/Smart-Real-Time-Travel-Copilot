@@ -1,0 +1,17 @@
+[
+ {"id":"stay-basic","kind":"hotel","name":"Demo simple guesthouse room","unit":"room","rate":600,"tier":"budget","note":"Per room per night. Example only; no named hotel or availability."},
+ {"id":"stay-comfort","kind":"hotel","name":"Demo comfortable hotel room","unit":"room","rate":2200,"tier":"comfort","note":"Per room per night. Example total includes a sample tax allowance."},
+ {"id":"stay-premium","kind":"hotel","name":"Demo premium hotel room","unit":"room","rate":6500,"tier":"premium","note":"Per room per night. Example only; no reservation or verified rate."},
+ {"id":"food-thali","kind":"restaurant","name":"Demo regional thali meal","unit":"person","rate":140,"tier":"budget","note":"One meal per traveller. Ask about local dishes and dietary requirements."},
+ {"id":"food-cafe","kind":"restaurant","name":"Demo neighbourhood café meal","unit":"person","rate":320,"tier":"comfort","note":"One meal per traveller. Cuisine, allergens and opening hours need checking."},
+ {"id":"food-premium","kind":"restaurant","name":"Demo regional tasting menu","unit":"person","rate":1600,"tier":"premium","note":"One meal per traveller. Example only; no real menu or booking."},
+ {"id":"sight-free","kind":"experience","name":"Demo self-guided neighbourhood visit","unit":"person","rate":0,"tier":"budget","note":"Free-entry example. Choose an accessible area near your day stops; travel uses its own allowance."},
+ {"id":"sight-craft","kind":"experience","name":"Demo local craft workshop","unit":"person","rate":450,"tier":"comfort","note":"Per participant. A workshop example, not a scheduled event."},
+ {"id":"sight-private","kind":"experience","name":"Demo private local guide session","unit":"person","rate":1800,"tier":"premium","note":"Per participant. Guide credentials and venue access need confirmation."},
+ {"id":"local-bus","kind":"transport","name":"Demo local bus journey","unit":"person","rate":40,"tier":"budget","note":"One local journey per traveller; not a real service or timetable."},
+ {"id":"local-cab","kind":"transport","name":"Demo local cab journey","unit":"car","rate":650,"tier":"comfort","note":"One local journey; cars allow 4 travellers each. Sample all-in price, not a quote."},
+ {"id":"local-premium","kind":"transport","name":"Demo premium car journey","unit":"car","rate":1800,"tier":"premium","note":"One local journey; 4 travellers per car. Check luggage, driver, fuel and tolls."},
+ {"id":"travel-bus","kind":"intercity","name":"Demo budget bus return journey","unit":"person","rate":2000,"tier":"budget","note":"Return fare example per traveller. No operator, seat, route or timetable confirmed."},
+ {"id":"travel-train","kind":"intercity","name":"Demo economy train return journey","unit":"person","rate":2600,"tier":"budget","note":"Return fare example per traveller. Check station transfers separately in the local travel allowance."},
+ {"id":"travel-flight","kind":"intercity","name":"Demo economy flight return journey","unit":"person","rate":14000,"tier":"premium","note":"Return flight and airport-transfer allowance per traveller. Illustrative only; check nearest airport, baggage, taxes and actual fares."}
+]
